@@ -163,7 +163,8 @@ const DataLibrary = () => {
           />
 
           <SplitItem>
-            <Button icon={<FaUpload />} onClick={handleFileModal}>
+            <Button icon={<FaUpload />} onClick={handleFileModal} 
+            style={{ marginLeft: "0em",marginRight:"1em",width:"13em",marginBottom:"1em"}}>
               Upload a folder
             </Button>
             <Button
@@ -175,7 +176,7 @@ const DataLibrary = () => {
                   },
                 });
               }}
-              style={{ marginLeft: "1em" }}
+              style={{ marginLeft: "0em",width:"13em"}}
             >
               {`Multiple File Select:${
                 multipleFileSelect === true ? " On" : " Off"
